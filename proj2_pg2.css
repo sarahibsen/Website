@@ -1,0 +1,51 @@
+/* CSS Document */
+
+  #discussion-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .message {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  h1, h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Box container for text */
+  .infobox {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #9B8C8C;
+    margin: 0;
+  }
+
+  .animation-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .message-container
+	{
+		opacity: 0;
+		transition: opacity 1s;
+	}

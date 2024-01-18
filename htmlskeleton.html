@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Put your own title here</title>
+
+	<!-- link href - similar to a href, but to call the css file. you must add rel in order to tell the html what we are using the file for.  -->
+		<link href="css/style.css" rel="stylesheet">
+		<style>
+		
+			#wrapper{
+				display: grid;
+				grid-template-columns:20% 80%; 
+				grid-template-rows: 20% 10% 10%; 
+				max-width: 80%; 
+				margin-left: auto; 
+				margin-right: auto; 
+				grid-column-gap: 10px; 
+				grid-row-gap: 10px; 
+				height: 100vh;}
+		
+			header{grid-column-start: 1; 
+				grid-column-end: 3; 
+				grid-row-start: 1; 
+				grid-row-end: 2; 
+				background-color: #2390ef;}
+	
+			aside{grid-column-start: 1; 
+				grid-column-end: 2; 
+				grid-row-start: 2; 
+				grid-row-end: 10; 
+				background-color: deepskyblue;}
+		
+			article{grid-column-start: 2; 
+				grid-column-end: 3; 
+				grid-row-start: 2; 
+				grid-row-end: 10; 
+				background-color: #CCF1FF;}
+		
+			footer{grid-column-start: 1; 
+				grid-column-end: 3; 
+				grid-row-start: 10; 
+				grid-row-end: 11; 
+				background-color: #215A8B;}
+		
+			body{background-image: url("images/almondddd.jpeg");}
+		
+			.button {
+  				background-color: #1622AE;
+  				border: none;
+  				color: white;
+  				padding: 15px 32px;
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+ 		 		font-size: 16px;
+  				margin: 4px 2px;
+	  			cursor: pointer;
+				border-radius: 12px;}
+	
+		</style>	
+	</head>
+
+	<body>
+		<div id="wrapper">	
+			<header> 
+				Header Stuff
+			</header>
+
+			<aside>
+				Aside Stuff<br><br><br><br><br>Other aside stuff
+			</aside>
+	
+			<article>
+				<p>Body Stuff<br>Stuff Stuff Stuff<br>More stuff</p>
+				<br><br><br><br><br><br><br><br><br>
+			</article>
+	
+			<footer>
+				Footer Stuff
+			</footer>
+		</div>
+	</body>
+</html>
